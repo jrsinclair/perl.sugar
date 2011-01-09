@@ -126,9 +126,9 @@
                 <starts-with>
                     <expression>(&lt;&lt;-?)(\w+)</expression>
                 </starts-with>
-                <starts-with>
+                <ends-with>
                     <expression>\2</expression>
-                </starts-with>
+                </ends-with>
             </zone>
             
 	    </collection>
